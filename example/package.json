@@ -8,9 +8,9 @@
     "echo:linux": "echo \"run linux script\"",
     "echo:darwin": "echo \"run darwin script\"",
     "echo-darwin": "echo \"run darwin script\"",
-    "echo": "auto-run echo:*",
-    "echo1": "auto-run echo-*",
-    "echo2": "auto-run -w \"echo:win32\" -l \"echo linux\" -m \"echo darwin\""
+    "echo": "auto-run-script echo:*",
+    "echo1": "auto-run-script echo-*",
+    "echo2": "auto-run-script -w \"echo:win32\" -l \"echo linux\" -m \"echo darwin\""
   },
   "author": "",
   "license": "ISC",

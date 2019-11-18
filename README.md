@@ -1,4 +1,4 @@
-# auto-run
+# auto-run-script
 
 A cli tool to run npm-scripts or script by platform.
 
@@ -18,12 +18,12 @@ Such as:
 ```
 * **Before**: you should run `npm run echo:win32` or `npm run echo:linux`
 
-* **With this**: just run `auto-run echo:*`
+* **With this**: just run `auto-run-script echo:*`
 
 ## Usage
 
 ```shell
-auto-run [script] [OPTIONS]
+auto-run-script [script] [OPTIONS]
 
 run the script(or name) by platform
 
