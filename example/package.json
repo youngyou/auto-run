@@ -1,0 +1,20 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "echo:win32": "echo \"run win script\"",
+    "echo:linux": "echo \"run linux script\"",
+    "echo:darwin": "echo \"run darwin script\"",
+    "echo-darwin": "echo \"run darwin script\"",
+    "echo": "auto-run echo:*",
+    "echo1": "auto-run echo-*",
+    "echo2": "auto-run -w \"echo:win32\" -l \"echo linux\" -m \"echo darwin\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cross-spawn": "^6.0.1"
+  }
+}
